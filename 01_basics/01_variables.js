@@ -1,12 +1,6 @@
-const accountID=14453;
-let accountEmail="rohna@gmail.com"
-var accountPass="12345"
-accountCity="Pune"
-let accountState
-
-accountEmail="rt@gmail.com"
-accountPass="121212"
-accountCity="mumbai"
+const name="rohan"
+console.log("Hello, my name is");
+console.log(name);
 
 
 /*
@@ -14,5 +8,5 @@ accountCity="mumbai"
     because of issue in block scope and  functional scope
 */
 
-console.log(accountID);
-console.table([accountID,accountEmail,accountPass,accountCity,accountState])
+// console.log(accountID);
+// console.table([accountID,accountEmail,accountPass,accountCity,accountState])

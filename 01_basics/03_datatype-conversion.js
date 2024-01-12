@@ -1,12 +1,12 @@
 let score="33"
 
-console.log(typeof score);
+console.log(typeof score); //=> string
 
 
 let value= Number (score)
-console.log(typeof value);
+console.log(typeof value); //=> number
  
-console.log(value);
+console.log(value); // => 33
 
 // "33"=> 33
 // "33abc"=> NaN(not a value)
@@ -26,4 +26,29 @@ console.log(BoolisLoggedin);
 let Num= 33
 let stringNum= String(Num)
 console.log(stringNum);
-console.log(typeof stringNum);
+console.log(typeof stringNum); 
+
+//operations
+
+//converting into neg value
+let value1=3
+let negValue =-value1
+console.log(negValue);
+
+//strings
+
+let str1="rohan"
+let str2=" tandale"
+let str3= str1 + str2
+console.log(str3);
+
+//strings complex
+
+console.log(1+"2"); //=> 12
+console.log("1" +2);//=>12
+console.log("1"+2+2); //=> 122
+console.log(1+2+"2"); //=> 32
+
+let gameCounter= 100
+++gameCounter
+console.log(gameCounter); // will increment =>101
