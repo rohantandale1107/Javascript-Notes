@@ -7,7 +7,7 @@ console.log(balance);
 console.log(balance.toString());
 console.log(balance.toFixed(2)); // 200 => 200.00
 
-const otherNum= 123.8945
+const otherNum = 123.8945
 
 console.log(otherNum.toPrecision(4)); // 123.8945=> 123.9
 
