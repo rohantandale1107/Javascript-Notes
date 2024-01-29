@@ -1,8 +1,8 @@
 console.log("rohan")
 
-let name="rohan"
-let age=20
-let isLoggedin=false
+let name = "rohan"
+let age = 20
+let isLoggedin = false
 
 // Data types
 //number=> 2 power of 52
