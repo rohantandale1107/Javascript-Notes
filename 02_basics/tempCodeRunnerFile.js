@@ -1,1 +1,1 @@
-Object.freeze(User)  
+console.log(Object.keys(tinderUser));
