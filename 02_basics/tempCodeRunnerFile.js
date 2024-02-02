@@ -1,1 +1,1 @@
-rohan
+Object.freeze(User)  
