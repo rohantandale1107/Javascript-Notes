@@ -1,5 +1,5 @@
 //=> true or false
-console.log(2 > 1);
+console.log(2 > 1); 
 console.log(2 >= 1);
 console.log(2 < 1);
 console.log(2 <= 1);
@@ -12,14 +12,14 @@ console.log("2" > 1);
 console.log( 1 > "2"); //string converts for comparison
 
 //
-console.log(null>0);
-console.log(null == 0);
-console.log(null <= 0);
-console.log(null >= 0);
+console.log(null>0); //=> false
+console.log(null == 0); //=> false
+console.log(null <= 0); //=> true
+console.log(null >= 0); //=> true
 
-console.log(undefined >= 0);
-console.log(undefined >= 0);
-console.log(undefined >= 0);
+console.log(undefined >= 0); //=> false
+console.log(undefined >= 0); //=> false
+console.log(undefined >= 0); //=> false
 
 // avoid this type of writing 
 // give priority to clean code
@@ -27,4 +27,4 @@ console.log(undefined >= 0);
 
 /// ===
 
-console.log("2" === 2);
+console.log("2" === 2); //=> false
