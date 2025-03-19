@@ -6,7 +6,8 @@ const accountID= 1212;
 const accountEmail="rohan@gmail.com"
 const accountPass="pass@123"
 let accountCity="pune"
-let accountState="maharashtra"
+let accountState
+
 
 /*
     Dont use var
