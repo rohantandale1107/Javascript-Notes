@@ -11,8 +11,8 @@ let userEmail;
 
 const id = Symbol ('123')
 const anotherID = Symbol('123')
-
-console.log(id==anotherID);
+ 
+console.log(id==anotherID); // => false
 
 const bigNumber = 696969696969696969696969n
 
@@ -30,7 +30,7 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof id);
+console.log(typeof id);  //=> symbol 
 
 // 1) Primitive Datatypes
 //        Number => number
